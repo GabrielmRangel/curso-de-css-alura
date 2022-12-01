@@ -1,0 +1,30 @@
+.pessoa{
+    display: flex;
+    flex-direction: column;
+}
+
+.pessoas{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+@media screen and (min-width: 0) {
+    .pessoa{
+        margin-bottom: 3rem;
+    }
+    
+    .pessoas{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .pessoa{
+        margin-bottom: 0;
+    }
+    
+    .pessoas{
+        flex-direction: row;
+    }
+}
