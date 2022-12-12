@@ -1,2 +1,2 @@
-# arquitetura-css
-curso de arquitetura da Alura. 
+# Metodologia BEM e Atômica para CSS 
+Curso de metodologia BEM e Atômica para CSS da Alura. 
